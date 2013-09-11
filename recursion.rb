@@ -37,11 +37,17 @@ def arr_min(arr)
 	min_idx
 end
 
+class Array
+	def shuffle
+		my_shuffle(self)
+	end
+end
 
 # Call shuffle
 orig_arr = ['B', 'b', 'C', 'c', 'd', 'D']
-shuffled_arr = my_shuffle(orig_arr)
-puts shuffled_arr.to_s
+# shuffled_arr = my_shuffle(orig_arr)
+# puts shuffled_arr.to_s
+puts orig_arr.shuffle.to_s
 
 # Call Dictionary Sort
 sorted_arr = dictionary_sort(shuffled_arr)

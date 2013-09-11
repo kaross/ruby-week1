@@ -44,5 +44,4 @@ diff_help = Time.new(0) + diff
 diff_months = diff_help.month
 diff_days = diff_help.day
 
-
 puts "#{name} will be #{diff_years+1} in #{diff_months} months and #{diff_days} days."
