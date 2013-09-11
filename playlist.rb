@@ -10,9 +10,9 @@ Dir.chdir '/Users/kaross/RubyCode/SampleFiles/'
 filename = "#{list_name}.m3u"
 
 File.open filename, 'w' do |f|
-	mp3_files.each do |mp3|
-		f.write mp3+"\n"
-	end
+  mp3_files.each do |mp3|
+    f.write mp3+"\n"
+  end
 end
 
 # I don't really understand the 'better playlist problem' - shuffle seems to work well enough for me
